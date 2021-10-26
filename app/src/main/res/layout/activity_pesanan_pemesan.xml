@@ -1,0 +1,172 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/warnabg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="307dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo_home_pemesan"/>
+
+    <TextView
+        android:background="@color/warnabg"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Pesanan Laundry"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Nama"
+            android:textColor="@color/warnahitam"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/et_nama_pemesan"
+            android:layout_width="match_parent"
+            android:hint="dikasakti"
+            android:textColor="@color/warnahitam"
+            android:paddingStart="20dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_putihradius10"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Alamat"
+            android:textColor="@color/warnahitam"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/et_alamat_pemesan"
+            android:layout_width="match_parent"
+            android:paddingStart="20dp"
+            android:hint="Sorowajan"
+            android:textColor="@color/warnahitam"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_putihradius10"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="No Tel"
+            android:textColor="@color/warnahitam"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:id="@+id/et_notel_pemesan"
+            android:layout_width="match_parent"
+            android:paddingStart="20dp"
+            android:hint="0822232938"
+            android:inputType="number"
+            android:textColor="@color/warnahitam"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_putihradius10"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:text="Paket"
+            android:textColor="@color/warnahitam"
+            android:textSize="20sp" />
+
+
+        <RadioGroup
+            android:id="@+id/radiogrup"
+            android:layout_width="match_parent"
+            android:layout_height="109dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonEkonomi"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Ekonomi [6 hari]"
+                android:textColor="@color/warnahitam"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonReguler"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Reguler[3-5 hari]"
+                android:textColor="@color/warnahitam"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonCepat"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Cepat [2 hari]"
+                android:textColor="@color/warnahitam"
+                android:textSize="20sp" />
+        </RadioGroup>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/paket"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Paket"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/warnahitam"
+        android:layout_marginTop="5dp"/>
+
+
+    <TextView
+        android:id="@+id/total_harga"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Harga"
+        android:textAlignment="center"
+        android:textColor="@color/warnahitam"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_pesan_pemesanpesan"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Pesan"
+        android:textStyle="bold"
+        android:background="@drawable/ic_bg_ijo_radius3"/>
+    </LinearLayout>

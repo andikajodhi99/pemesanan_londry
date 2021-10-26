@@ -1,0 +1,118 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/warnabg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo_awal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:text="Registrasi"
+            android:textAllCaps="true"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/et_email_pengelola"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_putihradius10"
+            android:hint="email"
+            android:textColorHint="@color/warnahitam"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="@color/warnahitam" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/et_passwd_pengelola"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_putihradius10"
+            android:hint="pasword"
+            android:textColorHint="@color/warnahitam"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/warnahitam" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/et_alamat_pengelola"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_putihradius10"
+            android:hint="Alamat"
+            android:textColorHint="@color/warnahitam"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="@color/warnahitam" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/et_nama_pengelola"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_putihradius10"
+            android:hint="nama"
+            android:textColorHint="@color/warnahitam"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/warnahitam" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_daftarpengelolaaa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_hijauradius10"
+            android:text="Daftar"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/warnahitam" />
+
+    </LinearLayout>
+</LinearLayout>

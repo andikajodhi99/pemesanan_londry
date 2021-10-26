@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "198611809360",
+    "firebase_url": "https://pemesananlondryjogjga-default-rtdb.firebaseio.com",
+    "project_id": "pemesananlondryjogjga",
+    "storage_bucket": "pemesananlondryjogjga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198611809360:android:9f9b6f6e93e385c40b8d55",
+        "android_client_info": {
+          "package_name": "com.example.londryjogja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198611809360-mm4hfsooe5ugnl7d3bs8n36km4u71l4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa4V0d_k2xcUhzL_UhNwhFdAxhystyOMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198611809360-mm4hfsooe5ugnl7d3bs8n36km4u71l4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198611809360:android:0277eeb1e4ad53ec0b8d55",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198611809360-mm4hfsooe5ugnl7d3bs8n36km4u71l4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa4V0d_k2xcUhzL_UhNwhFdAxhystyOMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198611809360-mm4hfsooe5ugnl7d3bs8n36km4u71l4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198611809360:android:d1d8f7c47c7f9f990b8d55",
+        "android_client_info": {
+          "package_name": "com.example.pemesananlondry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198611809360-mm4hfsooe5ugnl7d3bs8n36km4u71l4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa4V0d_k2xcUhzL_UhNwhFdAxhystyOMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198611809360-mm4hfsooe5ugnl7d3bs8n36km4u71l4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198611809360:android:782510770ecb4b5c0b8d55",
+        "android_client_info": {
+          "package_name": "com.example.pemesananlondryjogja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198611809360-mm4hfsooe5ugnl7d3bs8n36km4u71l4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa4V0d_k2xcUhzL_UhNwhFdAxhystyOMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198611809360-mm4hfsooe5ugnl7d3bs8n36km4u71l4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

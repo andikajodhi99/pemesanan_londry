@@ -1,0 +1,103 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/warnabg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:background="@drawable/ic_profill_kotak"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/logo_bundar"
+        android:layout_gravity="center"
+        android:layout_marginTop="-300dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_namaPemesan"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/warnahitam"
+            android:textAllCaps="true"
+            android:text="Calon Sarjana"/>
+        <TextView
+            android:id="@+id/tv_emailprofilpemesan1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/warnahitam"
+            android:text="Calon Sarjana@gmail.com"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/email_logo" />
+
+        <TextView
+            android:id="@+id/tv_emailprofilpemesan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="calonsarjana@gmail.com"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/iphone_logo" />
+
+        <TextView
+            android:id="@+id/tv_alamatpemesanprofil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="jl janti"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_keluarpemesan"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Keluar"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_bg_merahradius10"/>
+
+
+</LinearLayout>

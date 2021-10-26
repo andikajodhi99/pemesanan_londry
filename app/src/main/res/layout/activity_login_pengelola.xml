@@ -1,0 +1,106 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/warnabg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="186dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo_awal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:text="Login"
+            android:textAllCaps="true"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/et_email_pengelolalogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_putihradius10"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="@color/warnahitam" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/et_passwd_pengelolalogin"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_putihradius10"
+            android:hint="pasword"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/warnahitam" />
+        <Button
+            android:id="@+id/btn_Lihat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_hijauradius10"
+            android:text="Lihat"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/warnahitam" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btn_masuk_pengelola"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_bg_hijauradius10"
+            android:text="Masuk"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/warnahitam" />
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="370dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="20dp">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_daftar_pengelola"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@drawable/ic_bg_hijauradius10"-->
+<!--            android:text="Registrasi"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/warnahitam" />-->
+
+<!--    </LinearLayout>-->
+</LinearLayout>
